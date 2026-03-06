@@ -5,13 +5,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
+const assetBase = `${import.meta.env.BASE_URL}images/`;
 
 const works = [
   {
     title: "Yatra Go",
     type: "Travel Website",
     stack: "HTML, CSS, JavaScript",
-    image: "/images/YatraGo.png",
+    image: `${assetBase}YatraGo.png`,
     alt: "Yatra Go project preview",
     link: "https://yatrago.com/index.html",
   },
@@ -19,7 +20,7 @@ const works = [
     title: "Vihan Tour & Travels",
     type: "Travel Website",
     stack: "HTML, CSS, JavaScript",
-    image: "/images/VihanTravels.png",
+    image: `${assetBase}VihanTravels.png`,
     alt: "Vihan Tour & Travels project preview",
     link: "https://yuvancreations.github.io/vihaantourandtravels/",
   },
@@ -27,7 +28,7 @@ const works = [
     title: "Speedo",
     type: "Taxi Booking Website & APP",
     stack: "React, Vite, Firebase, Authentication, Payment Gateway",
-    image: "/images/Speedo.png",
+    image: `${assetBase}Speedo.png`,
     alt: "Speedo project preview",
     link: "https://yuvancreations.github.io/speedo/#/",
   },
@@ -35,7 +36,7 @@ const works = [
     title: "Yuvan Creations",
     type: "IT Services Website",
     stack: "React, Tailwind, Framer Motion, Firebase, Authentication, Payment Gateway",
-    image: "/images/Yuvancreations.png",
+    image: `${assetBase}Yuvancreations.png`,
     alt: "Yuvan Creations project preview",
     link: "https://yuvancreations.github.io/yuvancreations/",
   },
@@ -43,7 +44,7 @@ const works = [
     title: "Verma Mobile Gallery",
     type: "Ecommerce Website",
     stack: "React, Nodejs, Authentication",
-    image: "/images/VMG.png",
+    image: `${assetBase}VMG.png`,
     alt: "Verma Mobile Gallery project preview",
     link: "https://vermamobilegallery10.github.io/VMG/",
   },
@@ -51,7 +52,7 @@ const works = [
     title: "School Tracking Application",
     type: "Kids Tracking App",
     stack: "For Android & IOS, Students Live Location, Flutter, Kotlin, Firebase, Authentication, Google Maps API",
-    image: "/images/SchoolApp.png",
+    image: `${assetBase}SchoolApp.png`,
     alt: "School Tracking Application project preview",
     link: "https://yuvancreations.github.io/yuvancreations/",
   },

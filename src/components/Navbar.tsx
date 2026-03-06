@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 export let smoother: ScrollSmoother;
 
 const Navbar = () => {
+  const logo = `${import.meta.env.BASE_URL}images/Aman.png`;
   useEffect(() => {
     smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
@@ -43,7 +44,7 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          <img src="/images/Aman.png" alt="Aman logo" className="navbar-logo" />
+          <img src={logo} alt="Aman logo" className="navbar-logo" />
         </a>
         <a
           href="amanverma0655@gmail.com"
