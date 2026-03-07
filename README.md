@@ -5,7 +5,7 @@ Do check it out!
 
 **Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
 
-![Protfolio-Preview](https://demo0655.github.io/Portfolio/public/images/Image.PNG)
+![Protfolio-Preview](/public/images/Image.PNG)
 
 ## License
 
